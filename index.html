@@ -1,0 +1,1133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Afsuldeen.j — Python Full-Stack Developer Portfolio. Building practical, production-grade web applications with Python, FastAPI, MySQL, React, and REST APIs.">
+  <meta name="author" content="Afsuldeen J">
+  <meta name="keywords" content="Afsuldeen J, Python Full-Stack Developer, FastAPI, MySQL, React, REST API, Portfolio, Fresher, Backend Developer">
+
+  <!-- Open Graph / Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Afsuldeen.j | Python Full-Stack Developer Portfolio">
+  <meta property="og:description" content="Building Practical Web Applications with Python, FastAPI and Modern Frontend Technologies.">
+  <meta property="og:image" content="./profile.jpg">
+  <meta property="og:url" content="https://afsul2004.github.io/port-polio/">
+
+  <title>Afsuldeen.j | Python Full-Stack Developer Portfolio</title>
+  
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
+
+  <!-- Modern Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Scroll Progress Bar -->
+  <div id="scroll-progress" class="scroll-progress"></div>
+
+  <!-- Background Ambient Glow Accents -->
+  <div class="ambient-glow glow-blue"></div>
+  <div class="ambient-glow glow-indigo"></div>
+  <div class="ambient-glow glow-cyan"></div>
+
+  <!-- HEADER / NAVBAR -->
+  <header class="navbar-wrapper">
+    <nav class="navbar glass" aria-label="Main Navigation">
+      <a href="#home" class="logo" aria-label="Afsuldeen J Homepage">
+        <span class="logo-code">&lt;</span>Afsuldeen<span class="logo-dot">.j</span><span class="logo-code">/&gt;</span>
+      </a>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#home" class="nav-item active">Home</a>
+        <a href="#about" class="nav-item">About</a>
+        <a href="#skills" class="nav-item">Skills</a>
+        <a href="#projects" class="nav-item">Projects</a>
+        <a href="#architecture" class="nav-item">Architecture</a>
+        <a href="#education" class="nav-item">Education &amp; Certs</a>
+        <a href="#contact" class="nav-item">Contact</a>
+      </div>
+
+      <div class="nav-actions">
+        <a href="https://github.com/afsul2004" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-ghost nav-github-btn" title="Visit Afsuldeen's GitHub Profile">
+          <svg class="icon" viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+          </svg>
+          <span>GitHub</span>
+        </a>
+        <a href="https://www.linkedin.com/in/afsul2004" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-ghost nav-linkedin-btn" title="Visit Afsuldeen's LinkedIn Profile">
+          <svg class="icon" viewBox="0 0 24 24" width="16" height="16" fill="#38bdf8">
+            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+          </svg>
+          <span>LinkedIn</span>
+        </a>
+        <a href="#contact" class="btn btn-sm btn-primary nav-hire-btn">Hire Me</a>
+
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section id="home" class="hero section">
+      <div class="hero-container">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="badge-pulse"></span>
+            <span class="badge-text">Python Full-Stack Developer • Fresher</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Afsuldeen.j</span>
+          </h1>
+
+          <p class="hero-headline">
+            "Building Practical Web Applications with Python, FastAPI and Modern Frontend Technologies."
+          </p>
+
+          <p class="hero-description">
+            Passionate entry-level full-stack engineer with hands-on experience developing modular FastAPI backends, normalized MySQL database architectures, and responsive user interfaces. Focused on delivering scalable, clean, and thoroughly tested software solutions.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-primary btn-lg">
+              <span>View Featured Projects</span>
+              <svg class="btn-arrow" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </a>
+
+            <a href="#contact" class="btn btn-secondary btn-lg">
+              <span>Get In Touch</span>
+            </a>
+
+            <a href="https://github.com/afsul2004" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-lg github-primary-btn" title="Open GitHub Profile in new tab">
+              <svg class="icon" viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+              </svg>
+              <span>GitHub</span>
+              <svg class="external-icon" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/>
+              </svg>
+            </a>
+
+            <a href="https://www.linkedin.com/in/afsul2004" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-lg linkedin-primary-btn" title="Open LinkedIn Profile in new tab">
+              <svg class="icon" viewBox="0 0 24 24" width="18" height="18" fill="#38bdf8">
+                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+              </svg>
+              <span>LinkedIn</span>
+              <svg class="external-icon" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/>
+              </svg>
+            </a>
+          </div>
+
+          <!-- Quick Specs List -->
+          <div class="hero-pills">
+            <div class="pill-item">
+              <span class="pill-icon">📍</span>
+              <span class="pill-text">UAE, Dubai • Open to Relocation / Remote</span>
+            </div>
+            <div class="pill-item">
+              <span class="pill-icon">⚡</span>
+              <span class="pill-text">FastAPI &amp; MySQL Specialist</span>
+            </div>
+            <div class="pill-item">
+              <span class="pill-icon">💼</span>
+              <span class="pill-text">Entry-Level / Fresher Available</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Profile Showcase Card -->
+        <div class="hero-visual">
+          <div class="profile-card glass">
+            <div class="profile-glow-ring"></div>
+            <div class="profile-avatar-container">
+              <img src="./profile.jpg" alt="Afsuldeen J — Python Full-Stack Developer" class="profile-img" loading="eager">
+              <div class="status-indicator" title="Ready for New Opportunities">
+                <span class="status-dot"></span>
+                <span class="status-label">Active / Ready to Join</span>
+              </div>
+            </div>
+
+            <div class="profile-info">
+              <h3 class="profile-name">Afsuldeen.j</h3>
+              <p class="profile-role">Python Full-Stack Developer</p>
+              <div class="profile-stack-tags">
+                <span class="tag tag-accent">Python 3.14</span>
+                <span class="tag tag-accent">FastAPI</span>
+                <span class="tag tag-accent">MySQL 8.0</span>
+                <span class="tag">React / JS</span>
+                <span class="tag">REST APIs</span>
+              </div>
+            </div>
+
+            <!-- Terminal-like mini card -->
+            <div class="profile-meta-snippet">
+              <div class="snippet-header">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+                <span class="snippet-title">developer_profile.py</span>
+              </div>
+              <div class="snippet-body">
+                <code><span class="kw">class</span> <span class="cls">Developer</span>:</code>
+                <code>&nbsp;&nbsp;role = <span class="str">"Python Full-Stack"</span></code>
+                <code>&nbsp;&nbsp;core = [<span class="str">"FastAPI"</span>, <span class="str">"MySQL"</span>, <span class="str">"React"</span>]</code>
+                <code>&nbsp;&nbsp;status = <span class="str">"Ready to contribute"</span></code>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT ME SECTION -->
+    <section id="about" class="section about-section">
+      <div class="section-header">
+        <span class="section-tag">ENGINEERING PROFILE</span>
+        <h2 class="section-title">Turning requirements into <span class="gradient-text">production code.</span></h2>
+        <p class="section-subtitle">Bridging backend logic, database performance, and intuitive frontend experiences.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="glass about-main-card">
+          <div class="about-text-content">
+            <h3 class="card-title">Who I Am &amp; What I Build</h3>
+            <p>
+              I'm <strong>Afsuldeen.j</strong>, an aspiring <strong>Python Full-Stack Developer</strong> with a solid academic foundation in Computer Applications (BCA completed in 2025; currently pursuing MCA).
+            </p>
+            <p>
+              My development philosophy focuses on practical engineering: designing clean RESTful APIs with <strong>FastAPI</strong>, crafting normalized relational schemas in <strong>MySQL</strong>, and integrating responsive interfaces using <strong>HTML, CSS, JavaScript, and React</strong>.
+            </p>
+            <p>
+              Rather than building static landing pages, I engineer full-lifecycle applications featuring server-enforced role-based access control (RBAC), JWT authentication, automated scoring engines, and real-time eligibility logic.
+            </p>
+          </div>
+
+          <div class="focus-areas-grid">
+            <div class="focus-item">
+              <div class="focus-icon">⚡</div>
+              <div>
+                <h4>FastAPI &amp; REST APIs</h4>
+                <p>Dependency injection, Pydantic data schemas, automated Swagger documentation, and asynchronous endpoints.</p>
+              </div>
+            </div>
+
+            <div class="focus-item">
+              <div class="focus-icon">🗄️</div>
+              <div>
+                <h4>Relational Database Design</h4>
+                <p>MySQL 8.0 normalized 3NF schemas, foreign key integrity, query optimization, and SQLAlchemy 2.0 ORM.</p>
+              </div>
+            </div>
+
+            <div class="focus-item">
+              <div class="focus-icon">💻</div>
+              <div>
+                <h4>Full-Stack Integration</h4>
+                <p>Connecting React &amp; modern JavaScript frontends with secure backend microservices via Axios and REST APIs.</p>
+              </div>
+            </div>
+
+            <div class="focus-item">
+              <div class="focus-icon">🛡️</div>
+              <div>
+                <h4>Security &amp; Automated Testing</h4>
+                <p>Bcrypt password hashing, JWT bearer auth, server-side validation, and comprehensive Pytest test suites.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Metrics & Highlights Card -->
+        <div class="glass about-metrics-card">
+          <h3 class="card-title">Engineering Highlights</h3>
+          
+          <div class="metrics-list">
+            <div class="metric-item">
+              <div class="metric-number">02</div>
+              <div class="metric-info">
+                <strong>Full-Stack Applications</strong>
+                <span>E-Commerce Platform &amp; Job Exam Portal</span>
+              </div>
+            </div>
+
+            <div class="metric-item">
+              <div class="metric-number">17</div>
+              <div class="metric-info">
+                <strong>Relational MySQL Tables</strong>
+                <span>Engineered in Job Portal database schema</span>
+              </div>
+            </div>
+
+            <div class="metric-item">
+              <div class="metric-number">100%</div>
+              <div class="metric-info">
+                <strong>Automated Pytest Coverage</strong>
+                <span>Endpoint validation &amp; boundary condition checks</span>
+              </div>
+            </div>
+
+            <div class="metric-item">
+              <div class="metric-number">BCA+MCA</div>
+              <div class="metric-info">
+                <strong>Computer Applications</strong>
+                <span>Annai College of Arts and Science</span>
+              </div>
+            </div>
+
+            <div class="metric-item">
+              <div class="metric-number">2026</div>
+              <div class="metric-info">
+                <strong>Java Full-Stack Certified</strong>
+                <span>JSpiders / QSpiders • Granted 31/03/2026</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="github-cta-banner">
+            <div class="banner-icon">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+              </svg>
+            </div>
+            <div>
+              <p class="banner-heading">Verified Open Source Code</p>
+              <p class="banner-sub">Explore actual commit history and project repositories on GitHub.</p>
+            </div>
+            <a href="https://github.com/afsul2004" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">
+              View @afsul2004
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TECHNICAL SKILLS SECTION -->
+    <section id="skills" class="section skills-section">
+      <div class="section-header">
+        <span class="section-tag">TECHNICAL ARSENAL</span>
+        <h2 class="section-title">Skills &amp; Technologies I <span class="gradient-text">specialize in.</span></h2>
+        <p class="section-subtitle">Real-world technologies implemented in my working projects and verified repositories.</p>
+      </div>
+
+      <div class="skills-container-grid">
+        <!-- Backend Skills Card -->
+        <div class="glass skill-group-card featured-group">
+          <div class="group-header">
+            <div class="group-icon-badge py-badge">Py</div>
+            <div>
+              <span class="group-kicker">CORE STRENGTH</span>
+              <h3 class="group-title">Backend &amp; API Development</h3>
+            </div>
+          </div>
+          <p class="group-desc">
+            Designing asynchronous REST APIs, server-side data validation, authentication pipelines, and business logic execution.
+          </p>
+          <div class="skills-tags-wrap">
+            <span class="skill-pill active-pill">Python 3.14</span>
+            <span class="skill-pill active-pill">FastAPI</span>
+            <span class="skill-pill active-pill">Java Full-Stack</span>
+            <span class="skill-pill">RESTful APIs</span>
+            <span class="skill-pill">Pydantic v2</span>
+            <span class="skill-pill">SQLAlchemy 2.0 ORM</span>
+            <span class="skill-pill">PyMySQL</span>
+            <span class="skill-pill">JWT Bearer Auth</span>
+            <span class="skill-pill">Bcrypt Hashing</span>
+            <span class="skill-pill">Uvicorn ASGI</span>
+          </div>
+          <div class="group-footer">
+            <span class="footer-note">Implemented in: <code>ecom_backend</code> &amp; <code>job_portal/backend</code></span>
+          </div>
+        </div>
+
+        <!-- Database Skills Card -->
+        <div class="glass skill-group-card">
+          <div class="group-header">
+            <div class="group-icon-badge db-badge">SQL</div>
+            <div>
+              <span class="group-kicker">DATA ARCHITECTURE</span>
+              <h3 class="group-title">Databases &amp; Modeling</h3>
+            </div>
+          </div>
+          <p class="group-desc">
+            Normalized relational database schemas, complex SQL queries, foreign key relationships, and data seeding scripts.
+          </p>
+          <div class="skills-tags-wrap">
+            <span class="skill-pill active-pill">MySQL 8.0</span>
+            <span class="skill-pill active-pill">Relational Schema (3NF)</span>
+            <span class="skill-pill">SQL DDL &amp; DML</span>
+            <span class="skill-pill">Data Integrity &amp; Constraints</span>
+            <span class="skill-pill">Database Seeding</span>
+            <span class="skill-pill">Index Optimization</span>
+            <span class="skill-pill">Schema Migrations</span>
+          </div>
+          <div class="group-footer">
+            <span class="footer-note">Implemented in: 17-table <code>job_portal_exam</code> &amp; <code>mysql</code></span>
+          </div>
+        </div>
+
+        <!-- Frontend Skills Card -->
+        <div class="glass skill-group-card">
+          <div class="group-header">
+            <div class="group-icon-badge fe-badge">&lt;/&gt;</div>
+            <div>
+              <span class="group-kicker">USER INTERFACE</span>
+              <h3 class="group-title">Frontend Engineering</h3>
+            </div>
+          </div>
+          <p class="group-desc">
+            Building semantic, responsive, accessible web interfaces, managing component state, and integrating client-side routing.
+          </p>
+          <div class="skills-tags-wrap">
+            <span class="skill-pill active-pill">HTML5</span>
+            <span class="skill-pill active-pill">CSS3 &amp; Flex/Grid</span>
+            <span class="skill-pill active-pill">JavaScript (ES6+)</span>
+            <span class="skill-pill">React 18</span>
+            <span class="skill-pill">Vite</span>
+            <span class="skill-pill">React Router v6</span>
+            <span class="skill-pill">Axios HTTP Client</span>
+            <span class="skill-pill">Responsive Design</span>
+          </div>
+          <div class="group-footer">
+            <span class="footer-note">Implemented in: <code>ecom_website</code> &amp; <code>job_portal/frontend</code></span>
+          </div>
+        </div>
+
+        <!-- Tools & Quality Assurance Card -->
+        <div class="glass skill-group-card">
+          <div class="group-header">
+            <div class="group-icon-badge tool-badge">⚙️</div>
+            <div>
+              <span class="group-kicker">DEV TOOLS &amp; TESTING</span>
+              <h3 class="group-title">Tools &amp; Workflow</h3>
+            </div>
+          </div>
+          <p class="group-desc">
+            Version control, API test suites, interactive documentation, and automated deployment via GitHub Pages.
+          </p>
+          <div class="skills-tags-wrap">
+            <span class="skill-pill active-pill">Git</span>
+            <span class="skill-pill active-pill">GitHub</span>
+            <span class="skill-pill">VS Code</span>
+            <span class="skill-pill">Pytest Testing</span>
+            <span class="skill-pill">Swagger UI / OpenAPI</span>
+            <span class="skill-pill">Postman</span>
+            <span class="skill-pill">GitHub Pages</span>
+          </div>
+          <div class="group-footer">
+            <span class="footer-note">Verified via: Pytest suites &amp; active GitHub deployments</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED PROJECTS SECTION -->
+    <section id="projects" class="section projects-section">
+      <div class="section-header">
+        <span class="section-tag">FEATURED WORK</span>
+        <h2 class="section-title">Production-grade <span class="gradient-text">full-stack projects.</span></h2>
+        <p class="section-subtitle">Real repositories with live deployments, verified backend architectures, and complete source code.</p>
+      </div>
+
+      <div class="projects-wrapper">
+        
+        <!-- PROJECT 1: AMFLIP / ECOMPROFF -->
+        <article class="glass project-card featured-project-card" id="project-ecom">
+          <div class="project-grid-layout">
+            
+            <!-- Left: Visual Preview -->
+            <div class="project-media">
+              <div class="project-img-wrapper">
+                <img src="./assets/ecom_preview.svg" alt="AMFLIP ECOMPROFF E-Commerce Full-Stack Web Application" class="project-preview-img" loading="lazy">
+                <div class="live-status-badge">
+                  <span class="live-dot"></span>
+                  <span>Live on GitHub Pages</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right: Project Description & Details -->
+            <div class="project-details">
+              <div class="project-header">
+                <div class="project-num-tag">PROJECT 01 • FULL-STACK</div>
+                <h3 class="project-heading">AMFLIP / ECOMPROFF E-Commerce Platform</h3>
+                <p class="project-summary">
+                  A full-featured e-commerce web application engineered with an asynchronous <strong>Python FastAPI</strong> backend, a normalized <strong>MySQL</strong> database, and a dynamic frontend built with <strong>HTML, CSS, JavaScript, and React</strong>.
+                </p>
+              </div>
+
+              <!-- Tech Badges -->
+              <div class="tech-badge-row">
+                <span class="tech-badge">Python 3.14</span>
+                <span class="tech-badge">FastAPI</span>
+                <span class="tech-badge">MySQL</span>
+                <span class="tech-badge">SQLAlchemy ORM</span>
+                <span class="tech-badge">React</span>
+                <span class="tech-badge">REST APIs</span>
+                <span class="tech-badge">JWT Auth</span>
+                <span class="tech-badge">Swagger UI</span>
+              </div>
+
+              <!-- Implemented Features Checklist -->
+              <div class="features-block">
+                <h4 class="features-title">Implemented Architecture &amp; Features:</h4>
+                <ul class="features-list">
+                  <li>
+                    <span class="check-icon">✓</span>
+                    <span><strong>User Authentication:</strong> Secure user registration, login, password hashing with bcrypt, and JWT token authorization.</span>
+                  </li>
+                  <li>
+                    <span class="check-icon">✓</span>
+                    <span><strong>Product Catalog &amp; Search:</strong> Dynamic category filtering, full-text product search, and inventory tracking.</span>
+                  </li>
+                  <li>
+                    <span class="check-icon">✓</span>
+                    <span><strong>Shopping Cart &amp; Order Pipeline:</strong> Interactive cart management, order checkout, receipt upload, and order status lifecycle.</span>
+                  </li>
+                  <li>
+                    <span class="check-icon">✓</span>
+                    <span><strong>Modular FastAPI Routers:</strong> Dedicated endpoints for <code>auth</code>, <code>products</code>, <code>categories</code>, <code>orders</code>, <code>wishlist</code>, and <code>admin</code>.</span>
+                  </li>
+                  <li>
+                    <span class="check-icon">✓</span>
+                    <span><strong>MySQL Database &amp; Automated Testing:</strong> Relational schema with seed data and comprehensive Pytest test suites (<code>test_cancellation_and_inventory.py</code>, <code>test_revenue_and_dashboard.py</code>).</span>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Action Links & Buttons -->
+              <div class="project-actions">
+                <a href="https://afsul2004.github.io/ecom_website/" target="_blank" rel="noopener noreferrer" class="btn btn-primary" title="Open live e-commerce demo">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/>
+                  </svg>
+                  <span>Live Demo</span>
+                </a>
+
+                <a href="https://github.com/afsul2004/ecom_website" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" title="View Frontend Source Code">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                  </svg>
+                  <span>Frontend Repo</span>
+                </a>
+
+                <a href="https://github.com/afsul2004/ecom_backend" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" title="View FastAPI Backend Source Code">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                  </svg>
+                  <span>Backend Repo</span>
+                </a>
+
+                <button class="btn btn-outline arch-toggle-btn" data-target="arch-ecom" aria-label="Toggle AMFLIP architecture specs">
+                  <span>Architecture &amp; Docs</span>
+                </button>
+              </div>
+
+              <!-- Collapsible Architecture Breakdown -->
+              <div class="arch-collapse-panel" id="arch-ecom">
+                <div class="arch-box">
+                  <div class="arch-header">
+                    <strong>FastAPI Backend Specifications &amp; Swagger API</strong>
+                    <span class="badge-code">main.py :8000</span>
+                  </div>
+                  <div class="arch-content">
+                    <p><strong>Interactive Swagger UI:</strong> Available at <code>/docs</code> (OpenAPI 3.0 specification).</p>
+                    <p><strong>Database Layer:</strong> MySQL engine configured with SQLAlchemy declarative base, connection pooling, and automated schema migration scripts.</p>
+                    <p><strong>Security:</strong> Password hashing via <code>passlib[bcrypt]</code>, JWT access tokens via <code>python-jose</code>, CORS configured with strict HTTP headers.</p>
+                    <p><strong>Unit Tests:</strong> Full Pytest coverage on cart operations, inventory management, cancellation lifecycles, and admin revenue calculation.</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </article>
+
+
+        <!-- PROJECT 2: JOB PORTAL WITH ONLINE EXAM -->
+        <article class="glass project-card featured-project-card" id="project-jobportal">
+          <div class="project-grid-layout">
+            
+            <!-- Left: Visual Preview -->
+            <div class="project-media">
+              <div class="project-img-wrapper">
+                <img src="./assets/jobportal_preview.svg" alt="Job Portal with Online Examination System" class="project-preview-img" loading="lazy">
+                <div class="live-status-badge">
+                  <span class="live-dot"></span>
+                  <span>Live on GitHub Pages</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right: Project Description & Details -->
+            <div class="project-details">
+              <div class="project-header">
+                <div class="project-num-tag">PROJECT 02 • FULL-STACK ENTERPRISE</div>
+                <h3 class="project-heading">Job Portal Based on Online Examination System</h3>
+                <p class="project-summary">
+                  A production-grade recruitment portal featuring an integrated MCQ examination engine, automated real-time candidate scoring, and a rule-based eligibility evaluation engine across <strong>17 normalized MySQL tables</strong>.
+                </p>
+              </div>
+
+              <!-- Tech Badges -->
+              <div class="tech-badge-row">
+                <span class="tech-badge">Python 3.14</span>
+                <span class="tech-badge">FastAPI</span>
+                <span class="tech-badge">React 18</span>
+                <span class="tech-badge">Vite</span>
+                <span class="tech-badge">MySQL (17 Tables)</span>
+                <span class="tech-badge">SQLAlchemy 2.0</span>
+                <span class="tech-badge">Rule Engine</span>
+                <span class="tech-badge">Pytest</span>
+              </div>
+
+              <!-- Implemented Features Checklist -->
+              <div class="features-block">
+                <h4 class="features-title">Implemented Architecture &amp; Features:</h4>
+                <ul class="features-list">
+                  <li>
+                    <span class="check-icon">✓</span>
+                    <span><strong>Candidate &amp; Role Management:</strong> Role-based access control for <code>ADMIN</code>, <code>HR</code>, and <code>CANDIDATE</code> with admin registration approval workflows and PDF resume upload.</span>
+                  </li>
+                  <li>
+                    <span class="check-icon">✓</span>
+                    <span><strong>Interactive Online Examination Engine:</strong> Server-timed MCQ sessions, dynamic question palette navigation, real-time answer auto-save, and instant result calculation.</span>
+                  </li>
+                  <li>
+                    <span class="check-icon">✓</span>
+                    <span><strong>Automated Eligibility Rule Engine:</strong> Instant qualification evaluation:
+                      <em>Programmer Role</em> (Exam Score &gt; 8.0/10 and Academic Aggregate &gt; 75.0%);
+                      <em>Data Entry Operator</em> (Exam Score 6.0–8.0/10 and Academic Aggregate &gt; 65.0%).
+                    </span>
+                  </li>
+                  <li>
+                    <span class="check-icon">✓</span>
+                    <span><strong>HR &amp; Recruitment Workflows:</strong> Application status tracking (Applied, Eligible, Shortlisted, Selected), testing centre seating allocation, and employee onboarding records.</span>
+                  </li>
+                  <li>
+                    <span class="check-icon">✓</span>
+                    <span><strong>17 Normalized MySQL Tables:</strong> Fully normalized schema (3NF) managing users, profiles, exams, question banks, answers, scores, centres, HR records, notifications, and audit logs.</span>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Action Links & Buttons -->
+              <div class="project-actions">
+                <a href="https://afsul2004.github.io/job_portal/" target="_blank" rel="noopener noreferrer" class="btn btn-primary" title="Open live job portal demo">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/>
+                  </svg>
+                  <span>Live Demo</span>
+                </a>
+
+                <a href="https://github.com/afsul2004/job_portal" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" title="View Job Portal Complete Repository">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                  </svg>
+                  <span>Source Code Repo</span>
+                </a>
+
+                <button class="btn btn-outline arch-toggle-btn" data-target="arch-job" aria-label="Toggle Job Portal architecture specs">
+                  <span>Architecture &amp; Rules</span>
+                </button>
+              </div>
+
+              <!-- Collapsible Architecture Breakdown -->
+              <div class="arch-collapse-panel" id="arch-job">
+                <div class="arch-box">
+                  <div class="arch-header">
+                    <strong>17 Database Tables &amp; Eligibility Calculation Details</strong>
+                    <span class="badge-code">MySQL 8.0 • job_portal_exam</span>
+                  </div>
+                  <div class="arch-content">
+                    <p><strong>17 Normalized Tables:</strong> <code>users</code>, <code>candidate_profiles</code>, <code>job_positions</code>, <code>applications</code>, <code>exams</code>, <code>questions</code>, <code>exam_questions</code>, <code>exam_attempts</code>, <code>candidate_answers</code>, <code>exam_results</code>, <code>exam_cities</code>, <code>exam_centres</code>, <code>hr_profiles</code>, <code>employee_records</code>, <code>eligibility_records</code>, <code>notifications</code>, <code>audit_logs</code>.</p>
+                    <p><strong>Automated Eligibility Rules:</strong> Evaluated instantly upon examination submission and persisted into <code>eligibility_records</code> with timestamped audit trail.</p>
+                    <p><strong>Frontend Technology:</strong> React 18, Vite, React Router v6, Axios HTTP Client, Lucide React icons, and modern dashboard design system.</p>
+                    <p><strong>Pytest Verification:</strong> Comprehensive automated API test suite in <code>backend/tests/test_api.py</code> testing boundary conditions, session auto-save, and authentication.</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ARCHITECTURE & CODE HIGHLIGHTS SECTION -->
+    <section id="architecture" class="section architecture-section">
+      <div class="section-header">
+        <span class="section-tag">ENGINEERING SPOTLIGHT</span>
+        <h2 class="section-title">How I design <span class="gradient-text">backend systems.</span></h2>
+        <p class="section-subtitle">Real architectural patterns from my FastAPI backends and relational database schemas.</p>
+      </div>
+
+      <div class="arch-spotlight-grid">
+        <!-- Interactive Code Snippet Card 1 -->
+        <div class="glass code-card">
+          <div class="code-card-header">
+            <div class="code-card-title">
+              <span class="file-icon">🐍</span>
+              <span>FastAPI Dependency Injection &amp; Session Handling</span>
+            </div>
+            <span class="lang-tag">Python 3.14</span>
+          </div>
+          <pre class="code-block"><code><span class="cmt"># Database session dependency with auto-commit and cleanup</span>
+<span class="kw">def</span> <span class="fn">get_db</span>() -&gt; Generator[Session, <span class="kw">None</span>, <span class="kw">None</span>]:
+    db = SessionLocal()
+    <span class="kw">try</span>:
+        <span class="kw">yield</span> db
+    <span class="kw">finally</span>:
+        db.close()
+
+<span class="cmt"># Server-enforced Role-Based Access Control (RBAC)</span>
+<span class="kw">def</span> <span class="fn">require_role</span>(allowed_roles: list[str]):
+    <span class="kw">def</span> <span class="fn">role_checker</span>(current_user = Depends(get_current_user)):
+        <span class="kw">if</span> current_user.role <span class="kw">not in</span> allowed_roles:
+            <span class="kw">raise</span> HTTPException(
+                status_code=status.HTTP_403_FORBIDDEN,
+                detail=<span class="str">"Access restricted for current user role"</span>
+            )
+        <span class="kw">return</span> current_user
+    <span class="kw">return</span> role_checker</code></pre>
+          <div class="code-card-footer">
+            <span>Pattern used in: <code>job_portal/backend/app/auth.py</code> &amp; <code>ecom_backend</code></span>
+          </div>
+        </div>
+
+        <!-- Interactive Code Snippet Card 2 -->
+        <div class="glass code-card">
+          <div class="code-card-header">
+            <div class="code-card-title">
+              <span class="file-icon">🗄️</span>
+              <span>Normalized Schema &amp; Eligibility Calculation</span>
+            </div>
+            <span class="lang-tag">SQL &amp; Python</span>
+          </div>
+          <pre class="code-block"><code><span class="cmt"># Automated eligibility calculation engine</span>
+<span class="kw">def</span> <span class="fn">evaluate_eligibility</span>(exam_score: float, aggregate_pct: float, job: JobPosition):
+    <span class="str">"""Evaluates candidate score against configurable job thresholds"""</span>
+    is_eligible = (
+        exam_score &gt;= job.min_exam_score <span class="kw">and</span>
+        exam_score &lt;= job.max_exam_score <span class="kw">and</span>
+        aggregate_pct &gt;= job.min_academic_percentage
+    )
+    decision = <span class="str">"ELIGIBLE"</span> <span class="kw">if</span> is_eligible <span class="kw">else</span> <span class="str">"NOT_ELIGIBLE"</span>
+    <span class="kw">return</span> {
+        <span class="str">"decision"</span>: decision,
+        <span class="str">"score"</span>: exam_score,
+        <span class="str">"academic"</span>: aggregate_pct
+    }</code></pre>
+          <div class="code-card-footer">
+            <span>Pattern used in: <code>job_portal/backend/app/eligibility.py</code></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section id="education" class="section education-section">
+      <div class="section-header">
+        <span class="section-tag">ACADEMIC &amp; PROFESSIONAL JOURNEY</span>
+        <h2 class="section-title">Education &amp; <span class="gradient-text">certifications.</span></h2>
+        <p class="section-subtitle">Formal foundation in Computer Applications, algorithms, database systems, and verified professional full-stack training.</p>
+      </div>
+
+      <div class="timeline-container">
+        <!-- Education 1: Full-Stack Developer Course & Internship (QSpiders / JSpiders) -->
+        <div class="timeline-card glass cert-highlight-card">
+          <div class="timeline-status-badge completed">CERTIFIED 2026</div>
+          <div class="timeline-time">GRANTED ON — 31/03/2026</div>
+          <h3 class="timeline-degree">Java Full-Stack Developer</h3>
+          <h4 class="timeline-institution">JSpiders Software Training Institute / QSpiders</h4>
+          <div class="timeline-cert-sublocation">
+            <span>📍 Velachery, Chennai • Official Seal &amp; Signature Verified</span>
+          </div>
+          <p class="timeline-desc">
+            Certificate of Completion awarded to <strong>Afsuldeen J</strong> for successfully completing the professional course and internship in <strong>Java Full-Stack Developer</strong>. Curriculum encompasses Core Java, Object-Oriented Programming, Relational Database Management Systems (SQL), Web Technologies, and Full-Stack Application Architecture. Conferred by <strong>JSpiders Software Training Institute</strong> with official stamp from <strong>QSpiders Software Testing Training Institute</strong> (#12A, Taramani 100 Feet Road, Tansi Nagar, Velachery, Chennai - 600 042) and authorized signature by <strong>K. N. Kalaivani</strong>.
+          </p>
+          <div class="coursework-tags">
+            <span class="c-tag">Java Full-Stack</span>
+            <span class="c-tag">Core Java &amp; OOP</span>
+            <span class="c-tag">Relational DB &amp; SQL</span>
+            <span class="c-tag">Web Technologies</span>
+            <span class="c-tag">JSpiders Velachery</span>
+            <span class="c-tag">QSpiders Training</span>
+          </div>
+          <div class="timeline-card-actions">
+            <button class="btn btn-sm btn-primary cert-view-btn" data-cert="jspiders" aria-label="View Java Full-Stack Developer Certificate">
+              <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                <circle cx="12" cy="12" r="3"/>
+              </svg>
+              <span>View Verified Certificate</span>
+            </button>
+            <a href="./assets/qspiders_jspiders_certificate.jpg" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-ghost" title="Open certificate in high resolution">
+              <span>Full Image ↗</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Education 2: MCA -->
+        <div class="timeline-card glass">
+          <div class="timeline-status-badge pursuing">PURSUING</div>
+          <div class="timeline-time">2025 — 2027</div>
+          <h3 class="timeline-degree">Master of Computer Applications (MCA)</h3>
+          <h4 class="timeline-institution">Annai College of Arts and Science</h4>
+          <p class="timeline-desc">
+            Advanced study in software engineering principles, distributed systems, relational and NoSQL database management, asynchronous API design, and enterprise web application architecture.
+          </p>
+          <div class="coursework-tags">
+            <span class="c-tag">Advanced Python</span>
+            <span class="c-tag">Database Management</span>
+            <span class="c-tag">Web Technologies</span>
+            <span class="c-tag">Software Architecture</span>
+          </div>
+        </div>
+
+        <!-- Education 3: BCA -->
+        <div class="timeline-card glass">
+          <div class="timeline-status-badge completed">COMPLETED</div>
+          <div class="timeline-time">2022 — 2025</div>
+          <h3 class="timeline-degree">Bachelor of Computer Applications (BCA)</h3>
+          <h4 class="timeline-institution">Annai College of Arts and Science</h4>
+          <p class="timeline-desc">
+            Completed degree with a strong foundation in Object-Oriented Programming (OOP), Data Structures and Algorithms, Relational Database Management Systems (RDBMS / SQL), and core web technologies (HTML, CSS, JavaScript).
+          </p>
+          <div class="coursework-tags">
+            <span class="c-tag">Data Structures</span>
+            <span class="c-tag">Relational DBMS</span>
+            <span class="c-tag">Object-Oriented Programming</span>
+            <span class="c-tag">Computer Networks</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CREDENTIALS & FOUNDATIONS SECTION -->
+    <section id="credentials" class="section credentials-section">
+      <div class="section-header">
+        <span class="section-tag">VERIFICATION &amp; CREDENTIALS</span>
+        <h2 class="section-title">Academic &amp; verified <span class="gradient-text">credentials.</span></h2>
+        <p class="section-subtitle">Verified course completion credentials, academic qualifications, and validated repository implementations.</p>
+      </div>
+
+      <div class="credentials-grid">
+        <!-- Credential 1: Full-Stack Developer Course & Internship -->
+        <div class="glass credential-card featured-cred-card">
+          <div class="cred-icon">🏅</div>
+          <h3>Full-Stack Developer Course &amp; Internship</h3>
+          <p class="cred-meta">Java Full-Stack Developer • Granted: 31/03/2026</p>
+          <p class="cred-desc">
+            Certificate of Completion awarded to <strong>Afsuldeen J</strong> by <strong>JSpiders Software Training Institute</strong> / <strong>QSpiders Software Testing Training Institute</strong> (Velachery, Chennai). Authorized signature by K. N. Kalaivani and official institute seal.
+          </p>
+          <div class="cred-actions-row">
+            <span class="cred-status">✓ Verified: 31/03/2026</span>
+            <button class="cert-btn-text cert-view-btn" data-cert="jspiders">
+              <span>View Certificate</span>
+              <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- Credential 2: BCA Degree -->
+        <div class="glass credential-card">
+          <div class="cred-icon">🎓</div>
+          <h3>Degree Qualification</h3>
+          <p class="cred-meta">Bachelor of Computer Applications (BCA) • 2022–2025</p>
+          <p class="cred-desc">Conferred by Annai College of Arts and Science. Formal coursework in core programming, relational database systems, and software fundamentals.</p>
+          <span class="cred-status">✓ Completed Degree</span>
+        </div>
+
+        <!-- Credential 3: MCA Postgraduate -->
+        <div class="glass credential-card">
+          <div class="cred-icon">📜</div>
+          <h3>Postgraduate Track</h3>
+          <p class="cred-meta">Master of Computer Applications (MCA) • 2025–2027</p>
+          <p class="cred-desc">Currently enrolled at Annai College of Arts and Science. Advanced focus on application architecture, full-stack frameworks, and scalable databases.</p>
+          <span class="cred-status">✓ Currently Enrolled</span>
+        </div>
+
+        <!-- Credential 4: Verified Repositories -->
+        <div class="glass credential-card">
+          <div class="cred-icon">⚡</div>
+          <h3>Verified Implementations</h3>
+          <p class="cred-meta">Python Full-Stack Projects • GitHub Verified</p>
+          <p class="cred-desc">Working open-source implementations of FastAPI backends, 17-table MySQL schemas, Pytest suites, and interactive frontends.</p>
+          <a href="https://github.com/afsul2004" target="_blank" rel="noopener noreferrer" class="cred-link">
+            <span>Inspect GitHub Repositories →</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section contact-section">
+      <div class="section-header">
+        <span class="section-tag">LET'S CONNECT</span>
+        <h2 class="section-title">Ready to contribute to <span class="gradient-text">your engineering team.</span></h2>
+        <p class="section-subtitle">I'm actively seeking entry-level Python Full-Stack Developer opportunities, internships, and technical roles.</p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Contact Information Card -->
+        <div class="glass contact-info-card">
+          <h3 class="card-title">Direct Contact Channels</h3>
+          <p class="contact-lead-text">
+            Feel free to reach out directly via email, phone, or LinkedIn. I respond promptly to inquiries from recruiters, hiring managers, and prospective teams.
+          </p>
+
+          <div class="contact-methods-list">
+            <!-- Email -->
+            <div class="contact-method-item">
+              <div class="method-icon">📧</div>
+              <div class="method-details">
+                <span class="method-label">EMAIL ADDRESS</span>
+                <a href="mailto:afsal8133@gmail.com" class="method-value" id="emailLink">afsal8133@gmail.com</a>
+              </div>
+              <button class="copy-btn" id="copyEmailBtn" data-copy="afsal8133@gmail.com" title="Copy email address" aria-label="Copy email address">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
+                  <path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/>
+                </svg>
+              </button>
+            </div>
+
+            <!-- Phone -->
+            <div class="contact-method-item">
+              <div class="method-icon">📞</div>
+              <div class="method-details">
+                <span class="method-label">PHONE</span>
+                <a href="tel:+971582552600" class="method-value">+971 58 255 2600</a>
+              </div>
+              <button class="copy-btn" id="copyPhoneBtn" data-copy="+971582552600" title="Copy phone number" aria-label="Copy phone number">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
+                  <path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/>
+                </svg>
+              </button>
+            </div>
+
+            <!-- LinkedIn -->
+            <div class="contact-method-item">
+              <div class="method-icon">💼</div>
+              <div class="method-details">
+                <span class="method-label">LINKEDIN PROFILE</span>
+                <a href="https://www.linkedin.com/in/afsul2004" target="_blank" rel="noopener noreferrer" class="method-value">
+                  linkedin.com/in/afsul2004
+                </a>
+              </div>
+              <a href="https://www.linkedin.com/in/afsul2004" target="_blank" rel="noopener noreferrer" class="method-value" title="Open LinkedIn Profile in new tab" aria-label="Open LinkedIn Profile"> </a>
+            </div>
+
+            <!-- GitHub -->
+            <div class="contact-method-item">
+              <div class="method-icon">🐙</div>
+              <div class="method-details">
+                <span class="method-label">GITHUB PROFILE</span>
+                <a href="https://github.com/afsul2004" target="_blank" rel="noopener noreferrer" class="method-value">
+                  github.com/afsul2004
+                </a>
+              </div>
+            </div>
+
+            <!-- Location -->
+            <div class="contact-method-item">
+              <div class="method-icon">📍</div>
+              <div class="method-details">
+                <span class="method-label">CURRENT LOCATION</span>
+                <span class="method-value">UAE, Dubai • Open to Remote &amp; Relocation</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="resume-download-banner">
+            <div>
+              <strong>Looking for a formal CV?</strong>
+              <p>Request my updated full-stack resume or connect directly.</p>
+            </div>
+            <a href="./Afsul-resume.pdf" class="btn btn-sm btn-outline">
+              Request Resume
+            </a>
+          </div>
+        </div>
+
+        <!-- Functional Interactive Contact Form -->
+        <div class="glass contact-form-card">
+          <h3 class="card-title">Send a Direct Message</h3>
+          <p class="form-subtext">Submit your note below to compose and send an email directly to my inbox.</p>
+
+          <form id="contactForm" class="contact-form" novalidate>
+            <div class="form-group">
+              <label for="senderName" class="form-label">Your Name <span class="required">*</span></label>
+              <input type="text" id="senderName" class="form-input" placeholder="e.g. Sarah Jenkins" required>
+              <span class="form-error" id="nameError"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="senderEmail" class="form-label">Your Email <span class="required">*</span></label>
+              <input type="email" id="senderEmail" class="form-input" placeholder="e.g. sarah@company.com" required>
+              <span class="form-error" id="emailError"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="senderSubject" class="form-label">Subject <span class="required">*</span></label>
+              <input type="text" id="senderSubject" class="form-input" placeholder="e.g. Python Full-Stack Opportunity / Interview" required>
+              <span class="form-error" id="subjectError"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="senderMessage" class="form-label">Message <span class="required">*</span></label>
+              <textarea id="senderMessage" class="form-textarea" rows="4" placeholder="Hello Afsuldeen, we reviewed your projects and would love to discuss..." required></textarea>
+              <span class="form-error" id="messageError"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block btn-lg" id="submitBtn">
+              <span>Send Message</span>
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="22" y1="2" x2="11" y2="13"/>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"/>
+              </svg>
+            </button>
+
+            <!-- Success / Fallback State -->
+            <div class="form-status" id="formStatus" style="display: none;"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#home" class="logo">
+            <span class="logo-code">&lt;</span>Afsuldeen<span class="logo-dot">.j</span><span class="logo-code">/&gt;</span>
+          </a>
+          <p class="footer-tagline">
+            Python Full-Stack Developer • Building practical, scalable web solutions with FastAPI, MySQL, and modern frontend technologies.
+          </p>
+        </div>
+
+        <div class="footer-nav">
+          <span class="footer-heading">NAVIGATION</span>
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#architecture">Architecture</a>
+          <a href="#education">Education &amp; Certs</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <div class="footer-socials">
+          <span class="footer-heading">PROFILES &amp; REPOSITORIES</span>
+          <a href="https://github.com/afsul2004" target="_blank" rel="noopener noreferrer">GitHub (@afsul2004)</a>
+          <a href="https://www.linkedin.com/in/afsul2004" target="_blank" rel="noopener noreferrer">LinkedIn (afsul2004)</a>
+          <a href="https://afsul2004.github.io/ecom_website/" target="_blank" rel="noopener noreferrer">AMFLIP Live Demo</a>
+          <a href="https://afsul2004.github.io/job_portal/" target="_blank" rel="noopener noreferrer">Job Portal Live Demo</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright-text">
+          © 2026 <strong>Afsuldeen J</strong>. Crafted with clean HTML5, CSS3, and JavaScript. Hosted on GitHub Pages.
+        </p>
+        <div class="footer-meta-pill">
+          <span class="pulse-green"></span>
+          <span>Open to Entry-Level &amp; Full-Stack Developer Opportunities</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- CERTIFICATE PREVIEW MODAL -->
+  <div id="certModal" class="cert-modal" role="dialog" aria-modal="true" aria-labelledby="certModalTitle" aria-hidden="true">
+    <div class="cert-modal-backdrop" id="certModalBackdrop"></div>
+    <div class="cert-modal-dialog glass">
+      <div class="cert-modal-header">
+        <div class="cert-modal-title-wrap">
+          <div class="cert-badge-pill">
+            <span class="badge-pulse"></span>
+            <span>OFFICIAL VERIFIED CREDENTIAL</span>
+          </div>
+          <h3 id="certModalTitle" class="cert-modal-title">Java Full-Stack Developer — Certificate of Completion</h3>
+          <p class="cert-modal-org">JSpiders Software Training Institute • QSpiders Software Testing Training Institute</p>
+        </div>
+        <button class="cert-modal-close" id="certModalClose" aria-label="Close certificate modal">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M18 6L6 18M6 6l12 12"/>
+          </svg>
+        </button>
+      </div>
+
+      <div class="cert-modal-body">
+        <div class="cert-preview-image-frame">
+          <img src="./assets/qspiders_jspiders_certificate.jpg" alt="Afsuldeen J — Java Full-Stack Developer Certificate of Completion from JSpiders Software Training Institute and QSpiders, Granted 31/03/2026" class="cert-full-img" loading="lazy">
+        </div>
+
+        <!-- Verified Metadata Details Grid -->
+        <div class="cert-meta-box">
+          <div class="meta-row">
+            <span class="meta-key">RECIPIENT NAME:</span>
+            <span class="meta-val"><strong>AFSULDEEN J</strong></span>
+          </div>
+          <div class="meta-row">
+            <span class="meta-key">COURSE COMPLETED:</span>
+            <span class="meta-val highlight-val">JAVA FULL-STACK DEVELOPER</span>
+          </div>
+          <div class="meta-row">
+            <span class="meta-key">EXACT DATE GRANTED:</span>
+            <span class="meta-val date-val">31/03/2026 (March 31, 2026)</span>
+          </div>
+          <div class="meta-row">
+            <span class="meta-key">ISSUING ORGANIZATION:</span>
+            <span class="meta-val"><strong>JSpiders Software Training Institute</strong></span>
+          </div>
+          <div class="meta-row">
+            <span class="meta-key">OFFICIAL STAMP / CENTRE:</span>
+            <span class="meta-val">QSpiders Software Testing Training Institute, #12A, Taramani 100 Feet Road, Tansi Nagar, Velachery, Chennai - 600 042</span>
+          </div>
+          <div class="meta-row">
+            <span class="meta-key">AUTHORIZED SIGNATORY:</span>
+            <span class="meta-val">K. N. Kalaivani</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="cert-modal-footer">
+        <a href="./assets/qspiders_jspiders_certificate.jpg" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/>
+          </svg>
+          <span>Open Full Resolution Image</span>
+        </a>
+        <button class="btn btn-secondary btn-sm" id="certModalCloseBtn">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Notification Toast -->
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <!-- SCRIPT -->
+  <script src="script.js"></script>
+</body>
+</html>
